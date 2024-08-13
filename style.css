@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Open Sans ;
+
+}
+
+body{
+    background-color: aliceblue; 
+    height: 100vh;
+}
+
+
+/* .container{
+    max-width: 1180px;
+    margin-inline:auto;
+} */
+
+
+.main{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+
+
+/*  */
+
+
+.travel-section {
+    display: flex;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    background-color: #fff;
+    /* border-radius: 15px; */
+    /* overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); */
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.image-gallery .image-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-gallery .image-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.video-card {
+    grid-column: span 2;
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: white;
+    opacity: 0.8;
+}
+
+.text-content {
+    padding: 20px;
+    max-width: 600px;
+}
+
+.text-content p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.features {
+    margin-top: 20px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.feature-item i {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.feature-item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.feature-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+/*  */
+.services{
+    text-align: center;
+    font-family: open Sans;
+    margin-top: 10px;
+}
+
+
+.services-heading{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.services-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card{
+    width: 280px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(220, 220, 220);
+    margin: 0px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.card img{
+    width: 280px;
+    height: 230px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position:relative;
+    bottom: 5px;
+}
+    
+.services-card .content h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.services-card .content p{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+ 
+.services-card button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+}
+
+.services-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+
+.partnet{
+    text-align: center;
+    margin-top: 40px
+}
+.partner-heading{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.partner-text{
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+
+}
+
+
+.partner-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.1rem;
+    margin-top: 40px;
+
+}
+
+.partner-logo img{
+    width: 250px;
+    height: 70px;
+}
+
+.advantages{
+    margin-top: 70px;
+}
+
+.advantages-text{
+    position: relative;
+    bottom:150px;
+    margin-left: 0px;
+}
+.advantages-text h3 span{
+    color: rgb(245, 173, 6);
+    font-size: 50px;
+}
+.advantages-text h3{
+    font-size: 35px;
+    color: #fff;
+}
+.advantages-text p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.img-desc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.crousal{
+    position: relative;
+    bottom:150px;
+    margin-left: 0px;
+    display: flex;
+    gap: 30px;
+
+}
+
+
+
+.line{
+    width: 200px;
+    height: 3px;
+    background-color: rgb(248, 207, 2);
+    position: relative;
+   top: 15px;
+    margin-left: 0px;
+
+}
+.no-img{
+color: #fff;
+font-size: 20px;
+}
+
+.fa-solid{
+    font-size: 35px;
+    color: #fff;
+} 
+
+
+
+/* Popular tour packages */
+
+.popular-packages{
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.popular-heading{
+    font-size: 35px;
+}
+
+.popular-packages-text{
+    font-size: 20px;
+    color: #5e5e5e;
+}
+
+
+
+/*  */
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.package-container {
+    display: flex;
+    gap: 20px;
+}
+
+.package-card {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.package-card img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.package-info {
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+}
+
+.package-info h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.package-info p {
+    margin: 0 0 15px;
+    font-size: 18px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.book-now {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-now:hover {
+    background-color: #cc7a00;
+}
+
+
+
+/* discover-the-worlds */
+
+.discover-the-worlds{
+   
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.discover-heading h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.discover-heading p{
+    font-size: 15px;
+    color: #5e5e5e;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.count{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.count-number{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff9900;
+    border: 1px solid #ff9900;
+    border-radius: 2%;
+    padding: 30px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.count-number p{
+    font-size: 15px;
+    font-weight: 500;
+color: #555;
+
+}
+
+
+/* travle-agency */
+
+.travle-agency {
+margin-top:100px;
+text-align: center;
+
+
+}
+
+.travle-agency img{
+    object-fit: cover;
+    width:100%;
+     height:350px;
+}
+
+.travle-agency-1{
+    position: relative;
+    bottom: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.travle-agency-heading h2{
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.travle-agency-desc{
+    margin-top: 20px;
+
+}
+.travle-agency-desc p{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.travle-agency-desc button{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 15px;
+    border: none;
+    background-color: #ff9900;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+
+
+/* experience */
+
+.experience{
+
+}
+
+.experience h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.experience-desc{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.experience-text{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.experience-text p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+   font-size: 20px;
+    border:none;
+    background-color:nones;
+
+}
+
+.experience-text p .fa-solid{
+    color: #222222;
+}
+
+.experience-img{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.e-img1{
+
+    width: 100%;
+}
+.e-img2{
+    margin-top: 20px;
+    width: 50%;
+    height: 200px;
+}
+
+
+
+/* testmonial */
+
+
+.testmonial{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.testmonial-heading{
+    font-size: 30px;
+    margin-bottom: 10px;
+}

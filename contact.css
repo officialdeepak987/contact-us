@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background: url('header-bg.jpg') no-repeat center center/cover;
+    height: 400px;
+    position: relative;
+}
+
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header nav ul li {
+    margin-left: 20px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header .search-account {
+    display: flex;
+    align-items: center;
+}
+
+.header .search-account input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.header .search-account button {
+    padding: 5px 10px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.header h1 {
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+.contact-details {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+
+
+
+.contactus-img img{
+    border-top-left-radius: 10%;
+    border-bottom-right-radius:10% ;
+}
+
+.contact-details h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.contact-info .address {
+    max-width: 500px;
+    text-align: left;
+}
+
+.contact-info .address h3 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.contact-info .address p {
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.contact-info .address a {
+    color: orange;
+    text-decoration: none;
+
+}
+
+/*  */
+
+.line{
+    /* width: 10px;
+    height: 80%; 
+    background-color: #000000;  */
+    width: 1px;
+    border: 1px solid #a9a9a9;
+    height: 250px;
+    position: relative;
+    top: 50px;
+}
+
+
+/*  */
+
+.book-tour {
+    background: #f7f7f7;
+    padding: 50px 10%;
+    text-align: left;
+    background-image: url(https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/02/09094313/Andaman.jpg?tr=w-1200,q-60);
+}
+
+.book{
+    background-color: #fff;
+    width: 40%;
+    height: auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.book-tour h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.book-tour form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.book-tour form input,
+.book-tour form select,
+.book-tour form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.book-tour form button {
+    padding: 10px 20px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book-tour form button:hover {
+    background: #e68a00;
+}
+
+.traveler-photos {
+    padding: 50px 10%;
+    text-align: center;
+}
+.traveler-photos .img1{
+    height: 200px;
+}
+
+
+.traveler-photos p{
+    margin: 35px;
+    font-size: 20px;
+    color: #616161;
+}
+
+.traveler-photos h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.traveler-photos .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.traveler-photos .photo-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.steps-vacation {
+    background: #f7f7f7;
+    padding: 50px 10%;
+text-align: left;
+}
+
+.steps-vacation h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.steps-vacation .steps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.steps-vacation .steps .step {
+    flex: 1;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    padding: 50px 10%;
+    text-align: left;
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-logo img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer .footer-logo p {
+    max-width: 300px;
+    line-height: 1.5;
+}
+
+.footer .footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer-links h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer .footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .footer-links ul li a:hover {
+    text-decoration: underline;
+}
